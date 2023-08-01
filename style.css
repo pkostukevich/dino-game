@@ -22,10 +22,21 @@
     position: relative;
     top: 110px;
     left: 580px;
-    animation: cactusMov 2s infinite linear;
+    animation: objMov 2s infinite linear;
 }
 
-@keyframes cactusMov{
+#bird{
+    width: 50px;
+    height: 30px;
+    top: 50px;
+    position: relative;
+    background-image: url(./assets/bird.png);
+    background-size: 50px 30px;
+    animation: objMov 2s infinite linear;
+    animation-delay: 1s;
+}
+
+@keyframes objMov{
     0%{
         left: 580px;
     }
