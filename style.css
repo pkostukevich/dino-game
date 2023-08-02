@@ -3,6 +3,7 @@
     height: 200px;
     border-bottom: 1px solid #000;
     margin: auto;
+    overflow: hidden;
 }
 
 #dino{
@@ -21,14 +22,15 @@
     background-size: 20px 40px;
     position: relative;
     top: 110px;
-    left: 580px;
+    left: 620px;
     animation: objMov 2s infinite linear;
 }
 
 #bird{
     width: 50px;
     height: 30px;
-    top: 50px;
+    top: 25px;
+    left: 620px;
     position: relative;
     background-image: url(./assets/bird.png);
     background-size: 50px 30px;
@@ -38,7 +40,7 @@
 
 @keyframes objMov{
     0%{
-        left: 580px;
+        left: 620px;
     }
     100%{
         left: -20px;
